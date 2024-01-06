@@ -36,7 +36,7 @@ a:hover {
   background: #FFF;
   font-family: "Roboto", sans-serif;
   color: #434455;
-   width: 1440px;
+  max-width: 1440px;
     margin: auto;
     align-items: center;
 }
@@ -773,8 +773,8 @@ border-color: #4D5AE5;
    fill: transparent; 
 }
 
-.checkbox-btn:checked + .form-span {
-  background-color: #404bbf; 
+.checkbox-btn:checked + .form-label-text .form-span {
+  background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
 }
